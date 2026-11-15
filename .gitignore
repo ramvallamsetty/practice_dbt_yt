@@ -18,3 +18,6 @@ __pycache__/
 
 # Local dbt credentials
 profiles.yml
+
+# dbt credentials
+**/profiles.yml
