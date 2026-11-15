@@ -1,10 +1,20 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# dbt generated files
+target/
+logs/
+dbt_packages/
 
-# Virtual environments
-.venv
+# Python virtual environment
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables and secrets
+.env
+.env.*
+
+# OS files
+.DS_Store
+
+# Local dbt credentials
+profiles.yml
